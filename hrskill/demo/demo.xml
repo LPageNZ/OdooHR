@@ -1,0 +1,48 @@
+<odoo>
+    <data>
+      <record model='hrskill.category' id='category0'>
+        <field name='name'> Microsoft</field>
+        <field name="description"> Microsoft skills</field>
+      </record>
+      <record model='hrskill.category' id='category1'>
+        <field name='name'>Personal</field>
+        <field name="description">Personal skills</field>
+      </record>
+      <record model='hrskill.skills' id='skill0'>
+        <field name='name'>Excel</field>
+        <field name="description"> Microsoft Excel</field>
+        <!--field name="category_id">1</field-->
+      </record>
+      <record model='hrskill.skills' id='skill1'>
+        <field name='name'>Word</field>
+        <field name="description"> Microsoft Word</field>
+        <!--field name="category_id">0</field-->
+      </record>
+        <!--  -->
+        <!--   <record id="object0" model="hrskill.hrskill"> -->
+        <!--     <field name="name">Object 0</field> -->
+        <!--     <field name="value">0</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object1" model="hrskill.hrskill"> -->
+        <!--     <field name="name">Object 1</field> -->
+        <!--     <field name="value">10</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object2" model="hrskill.hrskill"> -->
+        <!--     <field name="name">Object 2</field> -->
+        <!--     <field name="value">20</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object3" model="hrskill.hrskill"> -->
+        <!--     <field name="name">Object 3</field> -->
+        <!--     <field name="value">30</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object4" model="hrskill.hrskill"> -->
+        <!--     <field name="name">Object 4</field> -->
+        <!--     <field name="value">40</field> -->
+        <!--   </record> -->
+        <!--  -->
+    </data>
+</odoo>
